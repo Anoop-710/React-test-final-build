@@ -1,0 +1,116 @@
+.middle-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px 160px;
+    height: 170px;
+    width: 1141px;
+    left: 0px;
+    top: 240px;
+    border-radius: 0px;
+    position: absolute;
+    /* border: 2px solid gray; */
+}
+
+.middle-footer-left{
+    display: flex;
+    justify-content: space-between;
+    width:55%;
+   
+
+} 
+
+.middle-footer-left ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap:20px;
+}
+
+.middle-footer-left li{
+    list-style-type: none;
+    letter-spacing: 0.2px;
+
+/* second-text-color */
+
+color: #737373;
+font-weight: 600;
+
+}
+
+#listHeader{
+    font-weight: 700;
+    color: #252B42;;
+}
+
+.middle-footer-right {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    /* background-color: #252B42; */
+    
+}
+
+.middle-footer h5{
+    font-size: 1.125rem;
+}
+
+.emailHandler{
+    background: #F9F9F9;
+    border: 1px solid #E6E6E6;
+    border-radius: 5px;
+
+}
+
+.emailHandler input{
+        height: 58px;
+        border-style: none;
+        font-size:1.125rem;
+}
+
+
+
+
+.emailHandler button{
+    background: #23A6F0;
+    border: 1px solid #E6E6E6;
+    border-radius: 0px 5px 5px 0px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    height: 58px;
+    width: 117px;
+    left: 0px;
+    top: 0px;
+    border-style: none;
+
+
+/* identical to box height, or 200% */
+
+text-align: center;
+letter-spacing: 0.2px;
+
+/* light-text-color */
+
+color: #FFFFFF;
+}
+
+.middle-footer-right p{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 28px;
+/* identical to box height, or 233% */
+
+letter-spacing: 0.2px;
+
+/* second-text-color */
+
+color: #737373;
+}

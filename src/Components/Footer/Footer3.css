@@ -1,0 +1,41 @@
+
+
+
+.bottom-footer{
+    height: 54px;
+    width: 98.7vw;
+    left: 0px;
+    top: 214px;
+    
+    border-radius: 0px;
+    background: #FAFAFA;
+    position: absolute;
+
+}
+
+.bottom-footer p{
+    position: absolute;
+    height: 24px;
+    width: 340px;
+    left: 0px;
+    top: 0px;
+    right: 100px;   
+    border-radius: nullpx;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    color: #737373;
+    
+    display: flex;
+    justify-content: flex-end;
+}
